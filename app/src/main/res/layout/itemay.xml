@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ayats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AYAT"
+        android:textSize="30sp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="angka"
+        android:textColor="@color/white"
+        android:layout_toLeftOf="@+id/ayats"/>
+    <TextView
+        android:id="@+id/terjemaay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terjemahan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:layout_below="@id/ayats"/>
+</RelativeLayout>
